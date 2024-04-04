@@ -1,0 +1,102 @@
+.container-pricing{
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+}
+.container-pricing .title{
+    font-size: 40px;
+    width: 100%;
+    height: auto;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+.container-pricing .text{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.container-pricing .pricing{
+    height: auto;
+    display: grid;
+    margin-top: 20px;
+    text-align: center;
+}
+.container-pricing .pricing .content{
+    margin: 20px 20px 0px 20px;
+    background-color: rgb(31, 31, 31);
+    border-radius: 4px;
+    padding: 10px 0px;
+    transition: .4s;
+}
+.container-pricing .pricing .content:hover{
+    transition: .4s;
+    filter: drop-shadow(0px 0px 2px rgb(235, 235, 235));
+}
+.container-pricing .pricing .content .title{
+    background: -webkit-linear-gradient(left, rgb(138, 43, 226) 10%, rgb(15, 174, 214) 100%);  
+    background: -webkit-linear-gradient(to right, rgb(138, 43, 226), rgb(15, 174, 214) 100% ); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 20px;
+}
+.container-pricing .pricing .content .text{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.container-pricing .pricing .content .number{
+    font-weight: 600;
+    background: -webkit-linear-gradient(left, rgb(138, 43, 226) 10%, rgb(15, 174, 214) 100%);  
+    background: -webkit-linear-gradient(to right, rgb(138, 43, 226), rgb(15, 174, 214) 100% ); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-top: -15px;
+}
+.container-pricing .pricing .content .sub-title{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    margin-top: 20px;
+}
+.container-pricing .pricing .content .list{
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: left;
+}
+.container-pricing .pricing .content .list .fa{
+    background: -webkit-linear-gradient(left, rgb(138, 43, 226) 10%, rgb(15, 174, 214) 100%);  
+    background: -webkit-linear-gradient(to right, rgb(138, 43, 226), rgb(15, 174, 214) 100% ); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.container-pricing .pricing .content .container-button{
+    text-decoration: none;
+    color: white;
+}
+.container-pricing .pricing .content .container-button .button{
+    background: -webkit-linear-gradient(left, rgb(138, 43, 226) 10%, rgb(15, 174, 214) 100%);  
+    background: -webkit-linear-gradient(to right, rgb(138, 43, 226), rgb(15, 174, 214) 100% );
+    font-size: 25px;
+    border-radius: 4px;
+    filter: drop-shadow(-5px 5px 0px rgb(235, 235, 235));
+    transform: translate(0px, 0px);
+    transition: .4s;
+}
+.container-pricing .pricing .content .container-button .button:hover{
+    background: -webkit-linear-gradient(left, rgb(138, 43, 226) 10%, rgb(15, 174, 214) 100%);  
+    background: -webkit-linear-gradient(to right, rgb(138, 43, 226), rgb(15, 174, 214) 100% );
+    font-size: 25px;
+    border-radius: 4px;
+    transition: .4s;
+    filter: drop-shadow(0px 0px 0px rgb(235, 235, 235));
+    transform: translate(-5px, 5px);
+}

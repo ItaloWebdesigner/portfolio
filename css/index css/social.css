@@ -1,0 +1,45 @@
+.container-social{
+    width: 100%;
+    height: auto;
+    display: grid;
+    text-align: center;
+    background: -webkit-linear-gradient(left, rgb(138, 43, 226) 10%, rgb(15, 174, 214) 100%);  
+    background: -webkit-linear-gradient(to right, rgb(138, 43, 226), rgb(15, 174, 214) 100% ); 
+    margin-top: 40px;
+    padding: 25px 0px;
+}
+.container-social .content .fa{
+    font-size: 48px;
+    color: black;
+    cursor: pointer;
+    transition: .5s;
+}
+.container-social .content .tiktok{
+    width: 43px;
+    height: 43px;
+    color: black;
+    cursor: pointer;
+    transition: .5s;
+}
+.container-social .content .container-text{
+    margin-top: 2px;
+    font-family: 'Raleway', sans-serif;
+}
+.container-social .content .container-text .text{
+    font-size: 26px;
+    color: black;
+    text-decoration: none;
+    transition: .5s;
+}
+.container-social .content:hover .fa{
+    transition: .5s;
+    color: white;
+}
+.container-social .content:hover .tiktok{
+    transition: .5s;
+    fill: white;
+}
+.container-social .content:hover .container-text .text{
+    transition: .5s;
+    color: white;
+}

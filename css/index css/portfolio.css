@@ -1,0 +1,140 @@
+.title-portfolio{
+    font-size: 40px;
+    width: 100%;
+    height: auto;
+    color: white;
+    text-align: center;
+    margin-top: 55px;
+    font-family: 'Roboto Slab', serif;
+}
+.text-portfolio{
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    color: white;
+    padding: 0px 10px;
+    font-family: 'Raleway', sans-serif;
+}
+.container-bar{
+    transition: .5s;
+}
+.container-gallery{
+    height: auto;
+    margin-top: 30px;
+    width: 90%;
+    grid-template-columns: auto auto;
+    transform: translateX(5.5%);
+}
+.container-gallery .content{
+    margin: 10px 20px;
+}
+.container-gallery .content .view .container-img .img{
+    width: 100%;
+    height: 350px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.view{ 
+    width: 100%;
+    height: auto;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px; 
+    font-weight: 400; 
+    border-radius: 20px; 
+    padding: 4px 0px 6px 0px; 
+    transition: 0.5s;
+    position: relative;
+}
+.view .effect{
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 99;
+    background: -webkit-linear-gradient(left, rgba(138, 43, 226, .8) 10%, rgba(15, 174, 214, .8) 100%);  
+    background: -webkit-linear-gradient(to right, rgba(138, 43, 226, .8), rgba(15, 174, 214, .8) 100% );
+    opacity: 0;
+    transition: .5s;
+    text-align: center;
+}
+.view:hover .effect{
+    opacity: 100;
+    transform: scale(103%);
+    transition: .5s;
+}
+.view:hover .container-img .img{
+    transform: scale(103%);
+    transition: .5s;
+}
+.view .effect .container-fa{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 70px;
+}
+.view .effect .container-fa .fa{
+    font-size: 25px;
+    background-color: black;
+    border-radius: 100%;
+    padding: 10px 11px;
+    color: blueviolet;
+}
+.view .effect .title{
+    width: 100%;
+    height: auto;
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    top: 125px;
+    font-family: 'Roboto Slab', serif;
+}
+.view .effect .text{
+    width: 97.5%;
+    height: auto;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 170px;
+    margin: 10px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container-mobal{
+    width: 90%;
+    height: auto;
+    text-align: center;
+    transform: translateX(5.5%);
+    margin-top: 20px;
+}
+.container-mobal .content{
+    margin: 30px 20px;
+}
+.container-mobal .content .title{
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+.container-mobal .content .text{
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+.container-mobal .content .btn{
+    font-size: 22px;
+    padding: 11px 60px;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+    transition: .4s;
+    background: -webkit-linear-gradient(left, rgb(138, 43, 226) 10%, rgb(15, 174, 214) 100%);  
+    background: -webkit-linear-gradient(to right, rgb(138, 43, 226), rgb(15, 174, 214) 100% );
+}

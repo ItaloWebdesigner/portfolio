@@ -1,0 +1,25 @@
+.container-about{
+    text-align: center;
+    margin-top: 60px;
+}
+.container-about .title-about{
+    font-size: 40px;
+    width: 100%;
+    height: auto;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+.container-about .content-about{
+    width: 90%;
+    transform: translateX(5.5%);
+    height: auto;
+    display: grid;
+}
+.container-about .content-about .img{
+    transition: .4s;
+    text-align: center;
+}
+.container-about .content-about .text{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}

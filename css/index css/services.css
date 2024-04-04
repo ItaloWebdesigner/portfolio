@@ -1,0 +1,78 @@
+.container-services{
+    text-align: center;
+    margin-top: 80px;
+}
+.container-services .title-services{
+    font-size: 40px;
+    width: 100%;
+    height: auto;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+.container-services .text-services{
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    color: white;
+    padding: 0px 10px;
+    font-family: 'Raleway', sans-serif;
+}
+.container-services .content-services{
+    width: 95%;
+    height: auto;
+    display: grid;
+    transform: translateX(2.5%);
+}
+.container-services .content-services .content{
+    padding: 20px 15px;
+    background-color: rgb(31, 31, 31);
+    border-radius: 4px;
+    transition: .4s;
+}
+.container-services .content-services .content:hover{
+    transition: .4s;
+    transform: scale(103%);
+    filter: drop-shadow(0px 0px 2px rgb(235, 235, 235));
+}
+.container-services .content-services .content .fa{
+    background: -webkit-linear-gradient(left, rgb(138, 43, 226) 10%, rgb(15, 174, 214) 100%);  
+    background: -webkit-linear-gradient(to right, rgb(138, 43, 226), rgb(15, 174, 214) 100% ); 
+    text-transform: uppercase;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.container-services .content-services .content .fa-home{
+    font-size: 52px;
+    margin-top: 4px;
+}
+.container-services .content-services .content .fa-mobile{
+    font-size: 60px;
+}
+.container-services .content-services .content .fa-cog{
+    font-size: 50px;
+    margin-top: 8px;
+}
+.container-services .content-services .content .fa-line-chart{
+    font-size: 42px;
+    margin-top: 7px;
+    margin-bottom: 8px;
+}
+.container-services .content-services .content .title{
+    font-size: 24px;
+    background: -webkit-linear-gradient(left, rgb(138, 43, 226) 10%, rgb(15, 174, 214) 100%);  
+    background: -webkit-linear-gradient(to right, rgb(138, 43, 226), rgb(15, 174, 214) 100% ); 
+    text-transform: uppercase;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-top: 10px;
+}
+.container-services .content-services .content .text{
+    color: white;
+    font-size: 20px;
+    margin: 15px 0px 0px 0px;
+    font-family: 'Raleway', sans-serif;
+}

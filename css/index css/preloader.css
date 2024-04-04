@@ -1,0 +1,82 @@
+
+  /* ini: Preloader */
+ 
+  #preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: rgb(17, 17, 17); /* cor do background que vai ocupar o body */
+    z-index:999; /* z-index para jogar para frente e sobrepor tudo */
+}
+#preloader .inner {
+    position: absolute;
+    top: 50%; /* centralizar a parte interna do preload (onde fica a animação)*/
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;  
+}
+
+.center{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: rgb(17, 17, 17);
+}
+.ring{
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  animation: ring 2s linear;
+  transition: 1s;
+
+}
+@keyframes ring {
+  0%{
+      transform: rotate(0deg);
+      box-shadow: 0px 2px 0px blueviolet;
+      transition: 1s;
+  }
+  50%{
+      transform: rotate(180deg);
+      box-shadow: 0px 2px 0px rgb(38, 54, 143);
+      transition: 1s;
+  }
+  100%{
+      transform: rotate(360deg);
+      box-shadow: 0px 2px 0px rgb(38, 164, 214);
+      transition: 1s;
+  }
+}
+.ring::before{
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(255, 255, 255, .3);
+}
+.center span{
+  font-size: 70px;
+  font-weight: 500;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 200px;
+  background: -webkit-linear-gradient(left, rgb(138, 43, 226) 10%, rgb(15, 174, 214) 100%);  
+  background: -webkit-linear-gradient(to right, rgb(138, 43, 226), rgb(15, 174, 214) 100% ); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  opacity: 70%;
+}
+.center span .img-preloader{
+  width: 85px;
+  height: 85px;
+  display: flex;
+  justify-items: center;
+}

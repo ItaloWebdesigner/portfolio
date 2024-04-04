@@ -1,0 +1,73 @@
+.container-skill{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 60px;
+}
+.container-skill .title-skill{
+    font-size: 40px;
+    width: 100%;
+    height: auto;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+.container-skill .text-skill{
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 20px 0px 20px 0px;
+    color: white;
+    padding: 0px 10px;
+    font-family: 'Raleway', sans-serif;
+}
+.container-skill .content-skill{
+    height: auto;
+    display: grid;
+    text-align: center;
+}
+.container-skill .content-skill .margin .content{
+    width: 100%;
+    height: auto;
+    padding: 25px 35px;
+    background-color: rgb(31, 31, 31);
+    border-radius: 4px;
+    transition: .4s;
+}
+.container-skill .content-skill .margin .content:hover{
+    transition: .4s;
+    transform: scale(103%);
+    filter: drop-shadow(0px 0px 2px rgb(235, 235, 235));
+}
+.container-skill .content-skill .margin .content .icon img{
+    width: 60px;
+    height: 60px;
+}
+.container-skill .content-skill .margin .content .icon .ajuste{
+    width: 65px;
+    height: 65px;
+}
+.container-skill .content-skill .margin .content .icon .ajustewoo{
+    width: 70px;
+    height: 55px;
+}
+.container-skill .content-skill .margin .content .icon .ajustecorel{
+    width: 65px;
+    height: 60px;
+}
+.container-skill .content-skill .margin .content .title{
+    font-size: 24px;
+    background: -webkit-linear-gradient(left, rgb(138, 43, 226) 10%, rgb(15, 174, 214) 100%);  
+    background: -webkit-linear-gradient(to right, rgb(138, 43, 226), rgb(15, 174, 214) 100% ); 
+    text-transform: uppercase;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-top: 15px;
+}
+.container-skill .content-skill .margin .content .text{
+    color: white;
+    font-size: 20px;
+    margin: 8px 0px 0px 0px;
+    font-family: 'Raleway', sans-serif;
+}
