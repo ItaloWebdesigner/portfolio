@@ -1,0 +1,119 @@
+.container-footer{
+    width: 100%;
+    height: auto;
+    background: -webkit-linear-gradient(left, rgb(138, 43, 226) 10%, rgb(15, 174, 214) 100%);  
+    background: -webkit-linear-gradient(to right, rgb(138, 43, 226), rgb(15, 174, 214) 100% ); 
+    display: grid;
+    margin-top: 60px;
+}
+.container-footer .content .logo img{
+    width: 120px;
+    height: 50px;
+    background: black;
+    border-radius: 4px;
+    padding: 5px 8px;
+}
+.container-footer .content .title-about{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    margin-top: 15px;
+}
+.container-footer .content .text-about{
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    margin-top: 6px;
+}
+.container-footer .content .title-info{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    margin-bottom: 20px;
+}
+.container-footer .content .info{
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+}
+.container-footer .content .info a{
+    color: white;
+    font-size: 18px;
+}
+.container-footer .content .info .fa{
+    font-size: 22px;
+    color: white;
+    margin-right: 10px;
+}
+.container-footer .content .info .fa-envelope{
+    font-size: 17px;
+    color: white;
+    margin-right: 10px;
+}
+.container-footer .content .info .fa-file-text{
+    font-size: 17px;
+    color: white;
+    margin-right: 10px;
+}
+.container-footer .content .title-orca{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    margin-bottom: 10px;
+}
+.container-footer .content .btn{
+    background: black;
+    padding: 5px 20px 10px 20px;
+    transition: 0.5 ease-in-out;
+}
+.container-footer .content .btn:hover{
+    background: white;
+    transform: scale(102%);
+    transition: 0.5 ease-in-out;
+}
+.container-footer .content .btn:hover div{
+    color: black;
+    transition: 0.5 ease-in-out;
+}
+.container-footer .content .btn div{
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    background: -webkit-linear-gradient(left, rgb(138, 43, 226) 10%, rgb(15, 174, 214) 100%);  
+    background: -webkit-linear-gradient(to right, rgb(138, 43, 226), rgb(15, 174, 214) 100% ); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.container-footer .content .text-orca{
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+.container-footer .content .container-icon{
+    width: 100%;
+    height: auto;
+    display: grid;
+}
+.container-footer .content .container-icon .content a .fa{
+    font-size: 26px;
+    color: white;
+}
+.container-footer .content .container-icon .content a .my-icon{
+    width: 25px;
+    height: 24px;
+    fill: white;
+}
+.copy{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 20px 0px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
