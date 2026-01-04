@@ -7,9 +7,11 @@
     margin-top: 60px;
 }
 .container-footer .content .logo img{
-    border-radius: 4px;
     width: 120px;
-    height: 60px;
+    height: 50px;
+    background: black;
+    border-radius: 4px;
+    padding: 5px 8px;
 }
 .container-footer .content .title-about{
     font-size: 25px;
