@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const message = document.getElementById('message').value;  
     
     // Envio para o WhatsApp
-    const phoneNumber = '5521980407884'; // Substitua pelo número do WhatsApp desejado
+    const phoneNumber = '5521982383568'; // Substitua pelo número do WhatsApp desejado
     const whatsappURL = `https://wa.me/${phoneNumber}?text=Nome:%20${encodeURIComponent(name)}%0ATelefone:%20${encodeURIComponent(phone)}%0AEmail:%20${encodeURIComponent(email)}%0AMensagem:%20${encodeURIComponent(message)}`;
     window.open(whatsappURL, '_blank');
     
